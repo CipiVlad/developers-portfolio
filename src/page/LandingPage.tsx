@@ -1,10 +1,11 @@
 import Hero from "../components/Hero"
-import Navbar from "../components/Navbar"
+import Tools from "../components/Tools"
 
 const LandingPage = () => {
     return (
         <>
             <Hero />
+            <Tools />
         </>
     )
 }

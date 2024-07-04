@@ -118,3 +118,32 @@ a {
 nav a:hover {
   color: rgb(162, 223, 162);
 }
+
+/* tools  */
+
+#tools {
+  margin-top: 10rem auto;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+.tools-text-card {
+  padding: 0 2rem;
+}
+
+.tools-text-card h2 {
+  font-size: 48px;
+  margin-bottom: 1rem;
+
+}
+
+.tools-text-card p {
+  font-size: 18px;
+  line-height: normal;
+}
