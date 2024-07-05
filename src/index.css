@@ -82,14 +82,12 @@ body {
   color: rgb(162, 223, 162);
 }
 
-.hero-image {
+.hero-image-container {
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: -1;
-}
 
-.hero-image-container {
   background-image: url('./img/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg');
   background-size: cover;
   background-position: center;
@@ -101,12 +99,14 @@ body {
   left: 0;
 }
 
+.hero-image {}
+
 /* navbar */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 12rem;
+  padding: 1rem 2rem;
 }
 
 a {
