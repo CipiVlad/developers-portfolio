@@ -15,13 +15,8 @@ const Navbar = () => {
     }
     return (
         <nav>
-            <div>
-                <a href="#">
-                    <h1>cipivlad</h1>
-                </a>
-            </div>
-
-            <div>
+            <h1>cipivlad</h1>
+            <div className="icons">
                 <a href={github}>
                     <IoLogoGithub
                         style={styleIcons}
