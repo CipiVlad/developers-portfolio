@@ -99,7 +99,6 @@ body {
   left: 0;
 }
 
-.hero-image {}
 
 /* navbar */
 nav {
@@ -146,4 +145,71 @@ nav a:hover {
 .tools-text-card p {
   font-size: 18px;
   line-height: normal;
+}
+
+/* projects */
+
+#projects {
+  margin-top: 10rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* 
+css overlay
+https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slidetop
+*/
+
+.project-card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #03151b62;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.overlay {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.overlay a {
+  text-decoration: underline rgb(162, 223, 162) 2px;
+  text-underline-offset: 12px;
+  line-height: 26px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.overlay a:hover {
+  color: rgb(162, 223, 162);
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

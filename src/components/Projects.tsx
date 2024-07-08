@@ -7,7 +7,11 @@ const Projects = () => {
         <section id="projects">
             <h2>Projects</h2>
             <div className="project-grid">
-                <ProjectCard />
+                {
+                    data.map((project) => {
+                        return <ProjectCard key={project.id} project={project} />
+                    })
+                }
             </div>
         </section>
     )

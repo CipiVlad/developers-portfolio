@@ -97,34 +97,34 @@ const data =
             ],
             "image": "images/screenshot_timetrackingdashboard.png"
         },
-        {
-            "id": 7,
-            "title": "Booking Notes Panel for Admins",
-            "description": "An App for BnB Admins to keep a smooth workflow going. ",
-            "link": "https://cipivlad.github.io/bookingNotes/",
-            "gitlink": "https://github.com/CipiVlad/bookingNotes.git",
-            "tools": [
-                "React",
-                "React-bootstrap",
-                "json-server",
-                "MUI"
-            ],
-            "image": "images/bookingNotes/bookingNotes.png"
-        },
-        {
-            "id": 8,
-            "title": "Social Media Dashboard",
-            "description": "This App is built with tailwindcss, styled-components and React.",
-            "link": "https://cipivlad.github.io/social_media_dashboard",
-            "gitlink": "https://github.com/CipiVlad/social_media_dashboard",
-            "tools": [
-                "React",
-                "tailwindcss",
-                "styled-components",
-                "typescript"
-            ],
-            "image": "images/screenshot_scoialmedia_dashboard.png"
-        },
+        // {
+        //     "id": 7,
+        //     "title": "Booking Notes Panel for Admins",
+        //     "description": "An App for BnB Admins to keep a smooth workflow going. ",
+        //     "link": "https://cipivlad.github.io/bookingNotes/",
+        //     "gitlink": "https://github.com/CipiVlad/bookingNotes.git",
+        //     "tools": [
+        //         "React",
+        //         "React-bootstrap",
+        //         "json-server",
+        //         "MUI"
+        //     ],
+        //     "image": "images/bookingNotes/bookingNotes.png"
+        // },
+        // {
+        //     "id": 8,
+        //     "title": "Social Media Dashboard",
+        //     "description": "This App is built with tailwindcss, styled-components and React.",
+        //     "link": "https://cipivlad.github.io/social_media_dashboard",
+        //     "gitlink": "https://github.com/CipiVlad/social_media_dashboard",
+        //     "tools": [
+        //         "React",
+        //         "tailwindcss",
+        //         "styled-components",
+        //         "typescript"
+        //     ],
+        //     "image": "images/screenshot_scoialmedia_dashboard.png"
+        // },
 
         // {
         //     "id": 3,
@@ -142,34 +142,34 @@ const data =
         // },
 
 
-        {
-            "id": 9,
-            "title": "The Design Shop",
-            "description": "A clean look and feel for your online store.",
-            "link": "https://cipivlad.github.io/PROJEKT-DESIGN-SHOP/",
-            "gitlink": "https://github.com/CipiVlad/PROJEKT-DESIGN-SHOP",
-            "tools": [
-                "HTML",
-                "CSS",
-                "",
-                ""
-            ],
-            "image": "images/designshop_screenshot.png"
-        },
-        {
-            "id": 10,
-            "title": "BnB Landing Page",
-            "description": "A bootstrap intro landing page template.",
-            "link": "https://cipivlad.github.io/bootstrap_intro_b-b_page/",
-            "gitlink": "https://github.com/CipiVlad/bootstrap_intro_b-b_page",
-            "tools": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                ""
-            ],
-            "image": "images/bnb_screenshot.png"
-        },
+        // {
+        //     "id": 9,
+        //     "title": "The Design Shop",
+        //     "description": "A clean look and feel for your online store.",
+        //     "link": "https://cipivlad.github.io/PROJEKT-DESIGN-SHOP/",
+        //     "gitlink": "https://github.com/CipiVlad/PROJEKT-DESIGN-SHOP",
+        //     "tools": [
+        //         "HTML",
+        //         "CSS",
+        //         "",
+        //         ""
+        //     ],
+        //     "image": "images/designshop_screenshot.png"
+        // },
+        // {
+        //     "id": 10,
+        //     "title": "BnB Landing Page",
+        //     "description": "A bootstrap intro landing page template.",
+        //     "link": "https://cipivlad.github.io/bootstrap_intro_b-b_page/",
+        //     "gitlink": "https://github.com/CipiVlad/bootstrap_intro_b-b_page",
+        //     "tools": [
+        //         "HTML",
+        //         "CSS",
+        //         "Bootstrap",
+        //         ""
+        //     ],
+        //     "image": "images/bnb_screenshot.png"
+        // },
         // {
         //     "id": 6,
         //     "title": "Ticketing Help Desk",
