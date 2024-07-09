@@ -10,7 +10,9 @@ const Tools = () => {
 
                 <div className="tools-text-card">
                     <h2>CSS</h2>
-                    <p> I work with CSS3 and use libraries like Tailwind, Bootstrap and MUI.</p>
+                    <p> I work with CSS3 and use libraries like Tailwind, Bootstrap and MUI.
+                        I also use CSS pre-processors like Sass. My workflow is mobile-first.
+                    </p>
                 </div>
 
                 <div className="tools-text-card">
