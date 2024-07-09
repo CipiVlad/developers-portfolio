@@ -17,19 +17,19 @@ const Navbar = () => {
         <nav>
             <h1>cipivlad</h1>
             <div className="icons">
-                <a href={github}>
+                <a href={github} target="_blank">
                     <IoLogoGithub
                         style={styleIcons}
                     />
                 </a>
 
-                <a href={devto}>
+                <a href={devto} target="_blank">
                     <PiDevToLogoFill
                         style={styleIcons}
                     />
                 </a>
 
-                <a href={frontendMentor}>
+                <a href={frontendMentor} target="_blank">
                     <SiFrontendmentor
                         style={styleIcons}
                     />

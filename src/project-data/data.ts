@@ -111,20 +111,35 @@ const data =
         //     ],
         //     "image": "images/bookingNotes/bookingNotes.png"
         // },
-        // {
-        //     "id": 8,
-        //     "title": "Social Media Dashboard",
-        //     "description": "This App is built with tailwindcss, styled-components and React.",
-        //     "link": "https://cipivlad.github.io/social_media_dashboard",
-        //     "gitlink": "https://github.com/CipiVlad/social_media_dashboard",
-        //     "tools": [
-        //         "React",
-        //         "tailwindcss",
-        //         "styled-components",
-        //         "typescript"
-        //     ],
-        //     "image": "images/screenshot_scoialmedia_dashboard.png"
-        // },
+        {
+            "id": 8,
+            "title": "Social Media Dashboard",
+            "description": "This App is built with tailwindcss, styled-components and React.",
+            "link": "https://cipivlad.github.io/social_media_dashboard",
+            "gitlink": "https://github.com/CipiVlad/social_media_dashboard",
+            "tools": [
+                "React",
+                "tailwindcss",
+                "styled-components",
+                "typescript"
+            ],
+            "image": "images/screenshot_scoialmedia_dashboard.png"
+        },
+
+        {
+            "id": 9,
+            "title": "A Photographer Portfolio",
+            "description": "Use this template to showcase your portfolio.",
+            "link": "https://main--photographer-portfolio-template.netlify.app/",
+            "gitlink": "https://github.com/CipiVlad/photographer_portfolio_template?tab=readme-ov-file",
+            "tools": [
+                "js",
+                "html",
+                "css",
+                "vite"
+            ],
+            "image": "images/screenshot_photographer_portfolio.png"
+        },
 
         // {
         //     "id": 3,
