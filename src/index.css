@@ -96,6 +96,20 @@ body {
   left: 0;
 }
 
+.hero-image {
+  width: 40%;
+  height: 100%;
+  background-image: url('/public/userpic/cipi24.png');
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+}
+
 
 /* navbar */
 nav {
@@ -247,6 +261,26 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slidet
 .project-text h2,
 .project-text p {
   margin-top: 1rem;
+}
+
+.show-more-container {
+  text-align: center;
+  margin-top: 1rem;
+  display: block;
+}
+
+.show-more-container button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline rgb(162, 223, 162) 2px;
+  text-underline-offset: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.show-more-container button:hover {
+  color: rgb(162, 223, 162);
 }
 
 /* contact */

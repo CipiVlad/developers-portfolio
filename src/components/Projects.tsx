@@ -32,11 +32,11 @@ const Projects = () => {
                     }).slice(4, 8)
                 }
             </div>
-            <div>
+            <div className="show-more-container">
                 <button
                     type="button"
-                    style={{ display: "block", margin: "0 auto" }}
                     onClick={handleLoadMore}
+                    className="show-more-btn"
                 >
                     {loadMore ? "" : "Show more"}
                 </button>
