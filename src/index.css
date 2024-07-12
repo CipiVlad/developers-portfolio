@@ -379,6 +379,7 @@ footer {
   #projects {
     padding-top: 20rem;
     /* height: 100vh; */
+    margin-top:33rem;
   }
 
   .projects-flex-headline {
